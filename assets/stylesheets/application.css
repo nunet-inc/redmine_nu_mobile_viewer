@@ -66,7 +66,6 @@
 }
 
 #history h4,.controller-news.action-index #content > h3 {
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
     font-weight:400;
 }
 
@@ -233,7 +232,6 @@
 }
 
 .controller-wiki #content .wiki,.controller-news #content .wiki {
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
     font-size:10pt;
 }
 
@@ -320,7 +318,7 @@
 
 blockquote {
     -moz-box-shadow:1px 2px 2px #b4b4b4;
-    background: rgba(243, 243, 243, 0.5) url(../images/bg_quote.png) no-repeat right top;
+    background: rgba(243, 243, 243, 0.5);
     border:1px solid #b4b4b4;
     box-shadow:1px 2px 2px #b4b4b4;
     font-style:normal;
@@ -333,7 +331,6 @@ blockquote blockquote {
 
 body {
     color:#222;
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
     font-size:13px;
 }
 
@@ -404,7 +401,7 @@ div.issue table img.gravatar,#watchers img.gravatar {
 div.wiki pre {
     -moz-border-radius:3px;
     -moz-box-shadow:1px 2px 2px #b4b4b4;
-    background:#F3F3F3 url(../images/bg_code.png) left 3px;
+    background:#F3F3F3;
     border-radius:3px;
     box-shadow:1px 2px 2px #b4b4b4;
     line-height:15px;
@@ -460,9 +457,6 @@ form em {
     font-style:normal;
 }
 
-h1,h2,h3,h4,.controller-wiki .wiki h1,.controller-wiki .wiki h2,.controller-wiki .wiki h3,.controller-wiki .wiki h4,.controller-wiki .wiki h5,.controller-news .wiki h1,.controller-news .wiki h2,.controller-news .wiki h3,.controller-news .wiki h4,.controller-news .wiki h5 {
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
-}
 
 h4 img.gravatar {
     margin-right:.25em;
@@ -500,7 +494,6 @@ input[type="submit"][disabled="disabled"],button[disabled="disabled"] {
 }
 
 input[type="text"] {
-    font-family:Osaka-Mono, "MS Gothic", sans-serif;
     font-size:100%;
 }
 
@@ -524,14 +517,12 @@ pre code {
 }
 
 pre,code {
-    font-family:Terminus, Liberation Mono, Courier New, serif;
     font-size:9pt;
 }
 
 table.filecontent {
     -moz-border-radius:3px;
     background-color:#F3F3F3!important;
-    background-image:url(../images/bg_code.png);
     border-collapse:separate!important;
     border-radius:3px;
     border-spacing:0;
@@ -543,7 +534,6 @@ table.filecontent tbody tr.spacing td {
 }
 
 table.filecontent td.line-code pre {
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
     line-height:15px;
     margin-left:2px!important;
 }
@@ -556,7 +546,6 @@ table.filecontent th.filename {
     background-color:#628DB6!important;
     border:none;
     color:#fff;
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
     font-size:9pt!important;
     line-height:15px;
     text-align:center!important;
@@ -567,7 +556,6 @@ table.filecontent th.line-num,table.filecontent th.filename {
     background-color:#628DB6;
     border:none!important;
     color:#fff!important;
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
     font-size:9pt!important;
     line-height:15px;
 }
@@ -618,7 +606,6 @@ td.subject,td.assigned_to {
 }
 
 textarea.wiki-edit {
-    font-family:Osaka-Mono, "MS Gothic", sans-serif;
     font-size:14px;
     letter-spacing:normal;
     line-height:130%;
@@ -633,7 +620,6 @@ ul.projects {
 }
 
 ul.projects div.child a.project {
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
     font-size:10pt;
     font-weight:700;
 }
@@ -643,14 +629,12 @@ ul.projects div.description {
 }
 
 ul.projects div.description a.project {
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
     font-size:inherit;
     font-weight:inherit;
 }
 
 ul.projects div.root a.project {
     font-size:11pt;
-    font-family:Meiryo, "Hiragino Kaku Gothic Pro", "MS PGothic", Verdana, sans-serif;
 }
 
 ul.projects ul.projects {

@@ -1,4 +1,4 @@
-<% if request.user_agent.upcase.include?('MOBILE') then %>
+<% if request.user_agent.upcase.include?('MOBILE') && request.user_agent.upcase.include?('IPAD') == false  then %>
     <%= stylesheet_link_tag 'application', :plugin => 'redmine_nu_mobile_viewer' %>
     <%= javascript_include_tag "application.js", :plugin => "redmine_nu_mobile_viewer" %>
 <% end %>
