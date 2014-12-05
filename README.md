@@ -23,15 +23,19 @@ This plugin works only on mobile devices. If you access by PC browser, your Redm
 
 # バージョン(Version)
 
-## 1.1.0 
+### 1.1.0 
+GitHubにリリースしました
 
-GitHubにリリースしました / First release on GitHub
+First release on GitHub
 
 
 ===
 # 開発会社(Developer)
 
-株式会社ニュー・ネット (http://www.nunet.co.jp) / Nunet Inc., Osaka, Japan.
+株式会社ニュー・ネット (http://www.nunet.co.jp) 
+
+Nunet Inc., Osaka, Japan.
+
 <div style="float: left"><img src="http://www.nunet.co.jp/wp-content/uploads/nunetinc_rogo_p.png/>
 </div>
 ![alt tag](http://www.nunet.co.jp/wp-content/uploads/nunetinc_rogo_p.png)
